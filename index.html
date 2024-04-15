@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Decibel Detect - Noise pollution monitoring system</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .survey{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <img ssrc="./WhatsApp Image 2023-04-23 at 1.29.06 PM_11zon.jpeg" alt="">
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>LPU,Punjab , INDIA</small>
+                </div>
+                
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+91 9798xxxxx</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+            <h2 class="m-0 text-primary">DECIBEL DETECT</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="index.html" class="nav-item nav-link">About</a>
+                <a href="index.html" class="nav-item nav-link">Service</a>
+                <a href="index.html" class="nav-item nav-link">Project</a>
+                <a href="index.html" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-1.jpg'>">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown"> Noise Pollution Monetoring System</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">"Harmony in Silence: Empowering Communities Through Noise Pollution Awareness."</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- CITIES Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="">
+                            
+                        </div>
+                        <h1>🟢 DELHI</h1>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Location</th>
+                                <th>&nbsp;&nbsp;Intensity (dB)</th>
+                        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Connaught Place</td>
+                                <td>&nbsp;&nbsp;75</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Karol Bagh</td>
+                                <td>&nbsp;&nbsp;68</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Saket</td>
+                                <td>&nbsp;&nbsp;80</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Hauz khas</td>
+                                <td>&nbsp;&nbsp;65</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Sarojni nagar</td>
+                                <td>&nbsp;&nbsp;70</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="">
+                            
+                        </div>
+                        <h1>🟢 PUNJAB</h1>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Location</th>
+                                <th>&nbsp;&nbsp;Intensity (dB)</th>
+                        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ludiana</td>
+                                <td>&nbsp;&nbsp;70</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Patiala</td>
+                                <td>&nbsp;&nbsp;65</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Amritsar</td>
+                                <td>&nbsp;&nbsp;75</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Jalandhar</td>
+                                <td>&nbsp;&nbsp;71</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Phagwara</td>
+                                <td>&nbsp;&nbsp;69</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="">
+                            
+                        </div>
+                        <h1>🟢 MUMBAI</h1>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Location</th>
+                                <th>&nbsp;&nbsp;Intensity (dB)</th>
+                        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Dharavi</td>
+                                <td>&nbsp;&nbsp;83</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Dadar</td>
+                                <td>&nbsp;&nbsp;78</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Navi mumbai</td>
+                                <td>&nbsp;&nbsp;81</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Marine drive</td>
+                                <td>&nbsp;&nbsp;75</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Andheri</td>
+                                <td>&nbsp;&nbsp;80</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center mb-4">
+                     <div class="">
+                            
+                        </div>
+                        <h1>🟢 KOLKATA</h1>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Location</th>
+                                <th>&nbsp;&nbsp;&nbsp;&nbsp;Intensity (dB)</th>
+                        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Jadavpur</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;80</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Baghajatin</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;75</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Layalka </td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;72</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Ranikuthi</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;65</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Bag Bazar</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;70</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center mb-4">
+                     <div class="">
+                            
+                        </div>
+                        <h1>🟢 BIHAR</h1>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Location</th>
+                                <th>&nbsp;&nbsp;&nbsp;&nbsp;Intensity (dB)</th>
+                        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Patna</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;79</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Hajipur</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;60</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Gaya </td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;71</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Rajgir</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;60</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Chapra</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;50</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center mb-4">
+                     <div class="">
+                            
+                        </div>
+                        <h1>🟢 U.P.</h1>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Location</th>
+                                <th>&nbsp;&nbsp;&nbsp;&nbsp;Intensity (dB)</th>
+                        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lucknow</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;78</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Noida</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;80</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Banaras </td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;69</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Kashi</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;73</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Mirzapur</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;70</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center mb-4">
+                     <div class="">
+                            
+                        </div>
+                        <h1>🟢 Kerala</h1>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Location</th>
+                                <th>&nbsp;&nbsp;&nbsp;&nbsp;Intensity (dB)</th>
+                        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Thiruvananthapuram</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;81</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Kochi</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;77</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Kozhikode  </td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;78</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Kollam</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;73</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Munnar</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;63</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center mb-4">
+                     <div class="">
+                            
+                        </div>
+                        <h1>🟢 Goa</h1>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Location</th>
+                                <th>&nbsp;&nbsp;Intensity (dB)</th>
+                        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Margao</td>
+                                <td>&nbsp;&nbsp;69</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Anjuna</td>
+                                <td>&nbsp;&nbsp;74</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Bicholin </td>
+                                <td>&nbsp;&nbsp;77</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>North Goa</td>
+                                <td>&nbsp;&nbsp;80</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Ponda</td>
+                                <td>&nbsp;&nbsp;72</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table><br><br>
+                    <h6>[Aug 2023]</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CITIES Start -->
+
+
+
+    <!-- Effects Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="mb-4">Harmful Effects of Noise Pollution</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            
+                            <h4 class="mb-3"><p> </p> Hearing Damage</h4>
+                            <p>Loud noise can damage cells and membranes in the cochlea. Listening to loud noise for a long time can overwork hair cells in the ear, which can cause permanently hearing loss.</p>
+                            <a class="small fw-medium" href="https://www.nidcd.nih.gov/health/noise-induced-hearing-loss">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+
+                            <h4 class="mb-3"><p> </p> Sleep Disturbance</h4>
+                            <p>Noise above 45 dB stops you from falling asleep or sleeping properly.According to the World Health Organization it should be no more than 30 dB. </p>
+                            <a class="small fw-medium" href="https://www.noiseandhealth.org/article.asp?issn=1463-1741;year=2010;volume=12;issue=47;spage=70;epage=76;aulast=Hume">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+
+                            <h4 class="mb-3"><p> </p> Stress and Mental Health</h4>
+                            <p>Noise can cause attacks of stress, fatigue, depression, anxiety and hysteria in both humans and animals..</p>
+                            <a class="small fw-medium" href="https://www.indianahospital.in/how-does-noise-pollution-affect-mental-health/">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+
+                            <h4 class="mb-3"><p> </p> Cardiovascular Problems</h4>
+                            <p>Respiratory agitation, racing pulse, high blood pressure, headaches and, in case of extremely loud, constant noise, gastritis, colitis and even heart attacks.</p>
+                            <a class="small fw-medium" href="https://pubmed.ncbi.nlm.nih.gov/35931843/">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+
+                            <h4 class="mb-3"><p> </p> Impaired Cognitive Function</h4>
+                            <p>Each 10 dB(A) increase in residential noise level was associated with a 36% increase in the risk for mild cognitive impairment (MCI) and a 29% increase in the risk for Alzheimer's disease.</p>
+                            <a class="small fw-medium" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6901841/">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+
+                            <h4 class="mb-3"><p> </p> Negative Environmental Impact</h4>
+                            <p>Noise pollution has an enormous environmental impact and does serious damage to wildlife. Experts say noise pollution can interfere with breeding cycles and rearing and is even hastening the extinction of some species.</p>
+                            <a class="small fw-medium" href="https://www.eea.europa.eu/articles/noise-pollution-is-a-major">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Effects End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="p-lg-5 ps-lg-0">
+                    
+                        <h1 class="mb-4">Most common sources of noise pollution</h1>
+                        <p class="mb-4 pb-2">There are many sources of noise pollution, but here are some of the main ones:</p>
+                        <ol>
+                            <li><h5>Traffic</h5></li>
+                            <li><h5>Air traffic</h5></li>
+                            <li><h5>Construction</h5></li>
+                            <li><h5>Night life</h5></li>
+                            <li><h5>Animals</h5></li>
+                            <li><h5>Households</h5></li>
+                            <li><h5>Agriculture</h5></li>
+                        </ol>
+                                    
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+
+
+
+    <!-- SOURCES Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="d-flex align-items-center mb-4">
+                    <div class="btn-lg-square bg-primary rounded-circle me-3">
+                        <i class="fa fa-award text-white"></i>
+                    </div>
+                    <h1 class="">Government laws for Noise pollution in India</h1>
+                </div>
+                <h3> [&#9733] Environment (Protection) Act, 1986:</h3>
+                <i>The Environment (Protection) Act, 1986 authorizes the central government to protect and improve environmental quality, control and reduce pollution from all sources, and prohibit or restrict the setting and /or operation of any industrial facility on environmental grounds </i>
+                <h3> [&#9733] Noise Pollution (Regulation and Control) Rules, 2000</h3>   
+                <i>(1) The noise levels in any area/zone shall not exceed the ambient air quality standards in respect of noise as specified in the Schedule. (2) The authority shall be responsible for the enforcement of noise pollution control measures and the due compliance of the ambient air quality standards in respect of noise..</i> 
+                <h3> [&#9733] Local Municipal Laws:</h3>    
+                <i>Local municipalities may have specific bylaws or regulations addressing noise pollution. 
+                    It's essential to check with local authorities for any additional rules in your specific region.
+                    You can also complain if you know that the noise level has exceeded the noise standards by 10 dB(A) in any area or there is noise pollution that happens at night between 10:00 pm and 6:00 am.</i> 
+                <h3> [&#9733] Vehicle Noise Limits</h3>    
+                <i>Current regulations mandate a maximum of 80-91 decibels for two wheelers, three wheelers, cars and commercial vehicles -- 
+                    well over the 53 decibel day-time and 45 decibel night-time safe limit stipulated by the World Health Organization..</i>
+                <h3> [&#9733] Noise Abatement Measures</h3>    
+                <i>In certain cases, regulations may require businesses or individuals to 
+                    take measures to reduce noise, such as installing soundproofing or using quieter equipment. Measures may include the isolation and damping of vibration sources; the replacement of components with quieter parts and material; the enclosure of particularly noisy components; the provision of noise barriers, etc.</i>
+            </div>
+        </div>
+    </div>
+    <!-- SOURCES End -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="d-flex align-items-center mb-4">
+                    <div class="btn-lg-square bg-primary rounded-circle me-3">
+                        <i class="fa fa-award text-white"></i>
+                    </div>
+                    <h1 class="">Solutions to reduce noise pollution</h1>
+                </div>
+                <i>&#9826; International bodies like the WHO agree that awareness of noise pollution is essential to beat this invisible enemy. For example: avoid very noisy leisure activities, opt for alternatives means of transport such as bicycles or electric vehicles over taking the car, do your housework at recommended times, insulate homes with noise-absorbing materials, etc. Educating the younger generation is also an essential aspect of environmental education.<br><hr>
+
+                    &#9826; Governments can also take measures to ensure correct noise management and reduce noise pollution. For example: protecting certain areas — parts of the countryside, areas of natural interest, city parks, etc. — from noise, establishing regulations that include preventive and corrective measures — mandatory separation between residential zones and sources of noise like airports, fines for exceeding noise limits, etc. —, installing noise insulation in new buildings, creating pedestrian areas where traffic is only allowed to enter to offload goods at certain times, replacing traditional asphalt with more efficient options that can reduce traffic noise by up to 3 dB, among others.<br><hr>
+                    
+                    &#9826; In recent years, the European Union has been promoting the use of new barriers that allow changes in sound waves, mainly for motorways and other forms of transport such as trains. Tests have been carried out in the Benelux and it seems that this is going to be extended to northern Europe. At the same time, work is being done on new, spongier and quieter asphalts, which are also better for the environment.</i>
+                
+                <div class="survey form">
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            margin: 20px;
+                        }
+                
+                        form {
+                            max-width: 600px;
+                            margin: 0 auto;
+                        }
+                
+                        label {
+                            display: block;
+                            margin-bottom: 8px;
+                        }
+                
+                        input, select, textarea {
+                            width: 100%;
+                            padding: 8px;
+                            margin-bottom: 16px;
+                            box-sizing: border-box;
+                        }
+                
+                        button {
+                            background-color: #4CAF50;
+                            color: white;
+                            padding: 10px 15px;
+                            border: none;
+                            border-radius: 4px;
+                            cursor: pointer;
+                        }
+                
+                        button:hover {
+                            background-color: #45a049;
+                        }
+                    </style>
+                
+                
+                    <h2>Noise Pollution Survey</h2>
+                
+                    <form action="submit_survey.php" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                
+                        <label for="location">Location:</label>
+                        <input type="text" id="location" name="location" required>
+                
+                        <label for="noise_source">Main Source of Noise:</label>
+                        <select id="noise_source" name="noise_source" required>
+                            <option value="traffic">Traffic</option>
+                            <option value="construction">Construction</option>
+                            <option value="industrial">Industrial activities</option>
+                            <option value="other">Other</option>
+                        </select>
+                
+                        <label for="noise_level">Noise Level (in dB):</label>
+                        <input type="number" id="noise_level" name="noise_level" required>
+                
+                        <label for="effect_on_health">Effect of Noise on Health:</label>
+                        <textarea id="effect_on_health" name="effect_on_health" rows="4" required></textarea>
+                
+                        <button type="submit">Submit Survey</button>
+                    </form></div>
+
+            <div class="survey result"><br>
+                
+                   <h2>Survey result</h2>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <img class="survey" height="500px" width="500px" src="./img/s1.jpg" alt="">
+                   <img class="survey" height="500px" width="500px" src="./img/s2.jpg" alt="">
+     </div>
+    <!-- Team Start -->
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Testimonial</h6>
+                <h1 class="mb-4">What Our users Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-1.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>As an advocate for a quieter and cleaner environment, DECIBAL DETECT has become an invaluable ally. The comprehensive noise pollution data provided by the website empowers me to raise awareness and push for positive change. It's a must-have tool for anyone passionate about environmental advocacy. </p>
+                        <h5 class="mb-1">Yashi</h5>
+                        <span class="fst-italic">Student</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Noise pollution is often overlooked, but it can have significant health implications. [Website Name] is a fantastic resource for professionals like me who want to understand and address the impact of noise on public health. The insights provided are invaluable for developing targeted interventions.</p>
+                        <h5 class="mb-1">Raj pund</h5>
+                        <span class="fst-italic">Health proffesional</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>This is a very good website helping me to take a look at the noise intensity around my locality.</p>
+                        <h5 class="mb-1">Bobby</h5>
+                        <span class="fst-italic">Student</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>LPU ,phagwara(Punjab),India </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 6969xxxxxx</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>decibeldetect@hotmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">DECIBEL DETECT</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed By <a href="">Aditya Sharma</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
